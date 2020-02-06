@@ -1,0 +1,2 @@
+cmvision:cmvision_3d:turtlebot_follower
+-DCATKIN_DEVEL_PREFIX=/home/turtlebot/catkin_ws_copy/devel -DCMAKE_INSTALL_PREFIX=/home/turtlebot/catkin_ws_copy/install -G Unix Makefiles

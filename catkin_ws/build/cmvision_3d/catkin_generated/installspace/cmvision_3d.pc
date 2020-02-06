@@ -1,0 +1,8 @@
+prefix=/home/turtlebot/catkin_ws_copy/install
+
+Name: cmvision_3d
+Description: Description of cmvision_3d
+Version: 1.0.0
+Cflags: -I/home/turtlebot/catkin_ws_copy/install/include
+Libs: -L/home/turtlebot/catkin_ws_copy/install/lib 
+Requires: geometry_msgs std_msgs
