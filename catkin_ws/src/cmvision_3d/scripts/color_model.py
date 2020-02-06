@@ -126,7 +126,7 @@ class color_model():
 		return (blob_x, blob_y, blob_z)
 
 	def _getDepthAt(self, x,y):
-		return self.depth_image[y][x]
+		return self.depth_image[y-1][x-1]
 
 	def _validateDepthAt(self, x, y):
 		depth = self._getDepthAt(x, y)
