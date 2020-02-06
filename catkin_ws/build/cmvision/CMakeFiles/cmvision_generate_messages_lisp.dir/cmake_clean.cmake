@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/cmvision_generate_messages_lisp"
-  "/home/turtlebot/catkin_ws_copy/devel/share/common-lisp/ros/cmvision/msg/Blobs.lisp"
-  "/home/turtlebot/catkin_ws_copy/devel/share/common-lisp/ros/cmvision/msg/Blob.lisp"
+  "/home/turtlebot/cse276/catkin_ws/devel/share/common-lisp/ros/cmvision/msg/Blobs.lisp"
+  "/home/turtlebot/cse276/catkin_ws/devel/share/common-lisp/ros/cmvision/msg/Blob.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

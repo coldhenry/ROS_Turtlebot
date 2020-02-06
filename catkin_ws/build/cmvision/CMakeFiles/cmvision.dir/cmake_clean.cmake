@@ -3,8 +3,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/cmvision.dir/src/conversions.c.o"
   "CMakeFiles/cmvision.dir/src/cmvision_color_blob_finder.cpp.o"
   "CMakeFiles/cmvision.dir/src/main.cpp.o"
-  "/home/turtlebot/catkin_ws_copy/devel/lib/cmvision/cmvision.pdb"
-  "/home/turtlebot/catkin_ws_copy/devel/lib/cmvision/cmvision"
+  "/home/turtlebot/cse276/catkin_ws/devel/lib/cmvision/cmvision.pdb"
+  "/home/turtlebot/cse276/catkin_ws/devel/lib/cmvision/cmvision"
 )
 
 # Per-language clean rules from dependency scanning.

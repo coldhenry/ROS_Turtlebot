@@ -5,13 +5,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/turtlebot/catkin_ws_copy/src/cmvision/src/conversions.c" "/home/turtlebot/catkin_ws_copy/build/cmvision/CMakeFiles/cmvision.dir/src/conversions.c.o"
+  "/home/turtlebot/cse276/catkin_ws/src/cmvision/src/conversions.c" "/home/turtlebot/cse276/catkin_ws/build/cmvision/CMakeFiles/cmvision.dir/src/conversions.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision.cc" "/home/turtlebot/catkin_ws_copy/build/cmvision/CMakeFiles/cmvision.dir/src/cmvision.cc.o"
-  "/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision_color_blob_finder.cpp" "/home/turtlebot/catkin_ws_copy/build/cmvision/CMakeFiles/cmvision.dir/src/cmvision_color_blob_finder.cpp.o"
-  "/home/turtlebot/catkin_ws_copy/src/cmvision/src/main.cpp" "/home/turtlebot/catkin_ws_copy/build/cmvision/CMakeFiles/cmvision.dir/src/main.cpp.o"
+  "/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision.cc" "/home/turtlebot/cse276/catkin_ws/build/cmvision/CMakeFiles/cmvision.dir/src/cmvision.cc.o"
+  "/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision_color_blob_finder.cpp" "/home/turtlebot/cse276/catkin_ws/build/cmvision/CMakeFiles/cmvision.dir/src/cmvision_color_blob_finder.cpp.o"
+  "/home/turtlebot/cse276/catkin_ws/src/cmvision/src/main.cpp" "/home/turtlebot/cse276/catkin_ws/build/cmvision/CMakeFiles/cmvision.dir/src/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,7 +31,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/turtlebot/catkin_ws_copy/devel/include"
+  "/home/turtlebot/cse276/catkin_ws/devel/include"
   "/opt/ros/indigo/include"
   "/usr/include/opencv"
   "/usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-release-2.8"

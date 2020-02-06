@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtlebot/catkin_ws_copy/src
+CMAKE_SOURCE_DIR = /home/turtlebot/cse276/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtlebot/catkin_ws_copy/build
+CMAKE_BINARY_DIR = /home/turtlebot/cse276/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/catkin_ws_copy/build/CMakeFiles /home/turtlebot/catkin_ws_copy/build/turtlebot_follower/CMakeFiles/progress.marks
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/catkin_ws_copy/build/CMakeFiles 0
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/cse276/catkin_ws/build/CMakeFiles /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower/CMakeFiles/progress.marks
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/cse276/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/clean
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/preinstall
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/preinstall
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/bond_generate_messages_cpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/bond_generate_messages_cpp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ bond_generate_messages_cpp: turtlebot_follower/CMakeFiles/bond_generate_messages
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/bond_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/bond_generate_messages_cpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/bond_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/bond_generate_messages_cpp.dir/build
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/bond_generate_messages_lisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/bond_generate_messages_lisp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ bond_generate_messages_lisp: turtlebot_follower/CMakeFiles/bond_generate_message
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/bond_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/bond_generate_messages_lisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/bond_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/bond_generate_messages_py.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/bond_generate_messages_py.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ bond_generate_messages_py: turtlebot_follower/CMakeFiles/bond_generate_messages_
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/bond_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/bond_generate_messages_py.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/bond_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/bond_generate_messages_py.dir/build
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ dynamic_reconfigure_gencfg: turtlebot_follower/CMakeFiles/dynamic_reconfigure_ge
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ dynamic_reconfigure_generate_messages_cpp: turtlebot_follower/CMakeFiles/dynamic
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ dynamic_reconfigure_generate_messages_lisp: turtlebot_follower/CMakeFiles/dynami
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ dynamic_reconfigure_generate_messages_py: turtlebot_follower/CMakeFiles/dynamic_
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/findGoal.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/findGoal.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/findGoal.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/findGoal.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ findGoal: turtlebot_follower/CMakeFiles/findGoal.dir/rule
 
 # fast build rule for target.
 findGoal/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/findGoal.dir/build.make turtlebot_follower/CMakeFiles/findGoal.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/findGoal.dir/build.make turtlebot_follower/CMakeFiles/findGoal.dir/build
 .PHONY : findGoal/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ nodelet_generate_messages_cpp: turtlebot_follower/CMakeFiles/nodelet_generate_me
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ nodelet_generate_messages_lisp: turtlebot_follower/CMakeFiles/nodelet_generate_m
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/nodelet_generate_messages_py.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/nodelet_generate_messages_py.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ nodelet_generate_messages_py: turtlebot_follower/CMakeFiles/nodelet_generate_mes
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/nodelet_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/nodelet_generate_messages_py.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/nodelet_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/nodelet_generate_messages_py.dir/build
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ std_srvs_generate_messages_cpp: turtlebot_follower/CMakeFiles/std_srvs_generate_
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -328,12 +328,12 @@ std_srvs_generate_messages_lisp: turtlebot_follower/CMakeFiles/std_srvs_generate
 
 # fast build rule for target.
 std_srvs_generate_messages_lisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ std_srvs_generate_messages_py: turtlebot_follower/CMakeFiles/std_srvs_generate_m
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/std_srvs_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/std_srvs_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_follower.dir/rule
 
 # Convenience name for target.
@@ -356,12 +356,12 @@ turtlebot_follower: turtlebot_follower/CMakeFiles/turtlebot_follower.dir/rule
 
 # fast build rule for target.
 turtlebot_follower/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build
 .PHONY : turtlebot_follower/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/rule
 
 # Convenience name for target.
@@ -370,12 +370,12 @@ turtlebot_follower_gencfg: turtlebot_follower/CMakeFiles/turtlebot_follower_genc
 
 # fast build rule for target.
 turtlebot_follower_gencfg/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower_gencfg.dir/build
 .PHONY : turtlebot_follower_gencfg/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_cpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_cpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_cpp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -384,12 +384,12 @@ turtlebot_msgs_generate_messages_cpp: turtlebot_follower/CMakeFiles/turtlebot_ms
 
 # fast build rule for target.
 turtlebot_msgs_generate_messages_cpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_cpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_cpp.dir/build
 .PHONY : turtlebot_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_lisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_lisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_lisp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -398,12 +398,12 @@ turtlebot_msgs_generate_messages_lisp: turtlebot_follower/CMakeFiles/turtlebot_m
 
 # fast build rule for target.
 turtlebot_msgs_generate_messages_lisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_lisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_lisp.dir/build
 .PHONY : turtlebot_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_py.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_py.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_py.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -412,12 +412,12 @@ turtlebot_msgs_generate_messages_py: turtlebot_follower/CMakeFiles/turtlebot_msg
 
 # fast build rule for target.
 turtlebot_msgs_generate_messages_py/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_py.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_msgs_generate_messages_py.dir/build
 .PHONY : turtlebot_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -426,12 +426,12 @@ visualization_msgs_generate_messages_cpp: turtlebot_follower/CMakeFiles/visualiz
 
 # fast build rule for target.
 visualization_msgs_generate_messages_cpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -440,12 +440,12 @@ visualization_msgs_generate_messages_lisp: turtlebot_follower/CMakeFiles/visuali
 
 # fast build rule for target.
 visualization_msgs_generate_messages_lisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
 .PHONY : visualization_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 .PHONY : turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -454,7 +454,7 @@ visualization_msgs_generate_messages_py: turtlebot_follower/CMakeFiles/visualiza
 
 # fast build rule for target.
 visualization_msgs_generate_messages_py/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make turtlebot_follower/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
 .PHONY : visualization_msgs_generate_messages_py/fast
 
 src/findGoal.o: src/findGoal.cpp.o
@@ -462,8 +462,8 @@ src/findGoal.o: src/findGoal.cpp.o
 
 # target to build an object file
 src/findGoal.cpp.o:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/findGoal.dir/build.make turtlebot_follower/CMakeFiles/findGoal.dir/src/findGoal.cpp.o
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/findGoal.dir/build.make turtlebot_follower/CMakeFiles/findGoal.dir/src/findGoal.cpp.o
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o
 .PHONY : src/findGoal.cpp.o
 
 src/findGoal.i: src/findGoal.cpp.i
@@ -471,8 +471,8 @@ src/findGoal.i: src/findGoal.cpp.i
 
 # target to preprocess a source file
 src/findGoal.cpp.i:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/findGoal.dir/build.make turtlebot_follower/CMakeFiles/findGoal.dir/src/findGoal.cpp.i
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.i
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/findGoal.dir/build.make turtlebot_follower/CMakeFiles/findGoal.dir/src/findGoal.cpp.i
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.i
 .PHONY : src/findGoal.cpp.i
 
 src/findGoal.s: src/findGoal.cpp.s
@@ -480,8 +480,8 @@ src/findGoal.s: src/findGoal.cpp.s
 
 # target to generate assembly for a file
 src/findGoal.cpp.s:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/findGoal.dir/build.make turtlebot_follower/CMakeFiles/findGoal.dir/src/findGoal.cpp.s
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.s
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/findGoal.dir/build.make turtlebot_follower/CMakeFiles/findGoal.dir/src/findGoal.cpp.s
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.s
 .PHONY : src/findGoal.cpp.s
 
 # Help Target
@@ -533,6 +533,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

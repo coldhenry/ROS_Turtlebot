@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/cmvision_3d_generate_messages_cpp"
-  "/home/turtlebot/catkin_ws_copy/devel/include/cmvision_3d/Blob3d.h"
-  "/home/turtlebot/catkin_ws_copy/devel/include/cmvision_3d/Blobs3d.h"
+  "/home/turtlebot/cse276/catkin_ws/devel/include/cmvision_3d/Blobs3d.h"
+  "/home/turtlebot/cse276/catkin_ws/devel/include/cmvision_3d/Blob3d.h"
 )
 
 # Per-language clean rules from dependency scanning.

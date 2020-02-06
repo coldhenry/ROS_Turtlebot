@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtlebot/catkin_ws_copy/src
+CMAKE_SOURCE_DIR = /home/turtlebot/cse276/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtlebot/catkin_ws_copy/build
+CMAKE_BINARY_DIR = /home/turtlebot/cse276/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/catkin_ws_copy/build/CMakeFiles /home/turtlebot/catkin_ws_copy/build/cmvision/CMakeFiles/progress.marks
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/catkin_ws_copy/build/CMakeFiles 0
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/cse276/catkin_ws/build/CMakeFiles /home/turtlebot/cse276/catkin_ws/build/cmvision/CMakeFiles/progress.marks
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/cse276/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/clean
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/preinstall
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/preinstall
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blob.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blob.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blob.dir/rule
 .PHONY : cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blob.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ _cmvision_generate_messages_check_deps_Blob: cmvision/CMakeFiles/_cmvision_gener
 
 # fast build rule for target.
 _cmvision_generate_messages_check_deps_Blob/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blob.dir/build.make cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blob.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blob.dir/build.make cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blob.dir/build
 .PHONY : _cmvision_generate_messages_check_deps_Blob/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blobs.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blobs.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blobs.dir/rule
 .PHONY : cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blobs.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ _cmvision_generate_messages_check_deps_Blobs: cmvision/CMakeFiles/_cmvision_gene
 
 # fast build rule for target.
 _cmvision_generate_messages_check_deps_Blobs/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blobs.dir/build.make cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blobs.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blobs.dir/build.make cmvision/CMakeFiles/_cmvision_generate_messages_check_deps_Blobs.dir/build
 .PHONY : _cmvision_generate_messages_check_deps_Blobs/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/cmvision.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision.dir/rule
 .PHONY : cmvision/CMakeFiles/cmvision.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ cmvision: cmvision/CMakeFiles/cmvision.dir/rule
 
 # fast build rule for target.
 cmvision/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/build
 .PHONY : cmvision/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/cmvision_gencpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_gencpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_gencpp.dir/rule
 .PHONY : cmvision/CMakeFiles/cmvision_gencpp.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ cmvision_gencpp: cmvision/CMakeFiles/cmvision_gencpp.dir/rule
 
 # fast build rule for target.
 cmvision_gencpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_gencpp.dir/build.make cmvision/CMakeFiles/cmvision_gencpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_gencpp.dir/build.make cmvision/CMakeFiles/cmvision_gencpp.dir/build
 .PHONY : cmvision_gencpp/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/cmvision_generate_messages.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_generate_messages.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_generate_messages.dir/rule
 .PHONY : cmvision/CMakeFiles/cmvision_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ cmvision_generate_messages: cmvision/CMakeFiles/cmvision_generate_messages.dir/r
 
 # fast build rule for target.
 cmvision_generate_messages/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_generate_messages.dir/build.make cmvision/CMakeFiles/cmvision_generate_messages.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_generate_messages.dir/build.make cmvision/CMakeFiles/cmvision_generate_messages.dir/build
 .PHONY : cmvision_generate_messages/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/cmvision_generate_messages_cpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_generate_messages_cpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_generate_messages_cpp.dir/rule
 .PHONY : cmvision/CMakeFiles/cmvision_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ cmvision_generate_messages_cpp: cmvision/CMakeFiles/cmvision_generate_messages_c
 
 # fast build rule for target.
 cmvision_generate_messages_cpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_generate_messages_cpp.dir/build.make cmvision/CMakeFiles/cmvision_generate_messages_cpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_generate_messages_cpp.dir/build.make cmvision/CMakeFiles/cmvision_generate_messages_cpp.dir/build
 .PHONY : cmvision_generate_messages_cpp/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/cmvision_generate_messages_lisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_generate_messages_lisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_generate_messages_lisp.dir/rule
 .PHONY : cmvision/CMakeFiles/cmvision_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ cmvision_generate_messages_lisp: cmvision/CMakeFiles/cmvision_generate_messages_
 
 # fast build rule for target.
 cmvision_generate_messages_lisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_generate_messages_lisp.dir/build.make cmvision/CMakeFiles/cmvision_generate_messages_lisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_generate_messages_lisp.dir/build.make cmvision/CMakeFiles/cmvision_generate_messages_lisp.dir/build
 .PHONY : cmvision_generate_messages_lisp/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/cmvision_generate_messages_py.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_generate_messages_py.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_generate_messages_py.dir/rule
 .PHONY : cmvision/CMakeFiles/cmvision_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ cmvision_generate_messages_py: cmvision/CMakeFiles/cmvision_generate_messages_py
 
 # fast build rule for target.
 cmvision_generate_messages_py/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_generate_messages_py.dir/build.make cmvision/CMakeFiles/cmvision_generate_messages_py.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_generate_messages_py.dir/build.make cmvision/CMakeFiles/cmvision_generate_messages_py.dir/build
 .PHONY : cmvision_generate_messages_py/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/cmvision_genlisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_genlisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_genlisp.dir/rule
 .PHONY : cmvision/CMakeFiles/cmvision_genlisp.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ cmvision_genlisp: cmvision/CMakeFiles/cmvision_genlisp.dir/rule
 
 # fast build rule for target.
 cmvision_genlisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_genlisp.dir/build.make cmvision/CMakeFiles/cmvision_genlisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_genlisp.dir/build.make cmvision/CMakeFiles/cmvision_genlisp.dir/build
 .PHONY : cmvision_genlisp/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/cmvision_genpy.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_genpy.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/cmvision_genpy.dir/rule
 .PHONY : cmvision/CMakeFiles/cmvision_genpy.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ cmvision_genpy: cmvision/CMakeFiles/cmvision_genpy.dir/rule
 
 # fast build rule for target.
 cmvision_genpy/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_genpy.dir/build.make cmvision/CMakeFiles/cmvision_genpy.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision_genpy.dir/build.make cmvision/CMakeFiles/cmvision_genpy.dir/build
 .PHONY : cmvision_genpy/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/colorgui.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/colorgui.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/colorgui.dir/rule
 .PHONY : cmvision/CMakeFiles/colorgui.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ colorgui: cmvision/CMakeFiles/colorgui.dir/rule
 
 # fast build rule for target.
 colorgui/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/build
 .PHONY : colorgui/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : cmvision/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ roscpp_generate_messages_cpp: cmvision/CMakeFiles/roscpp_generate_messages_cpp.d
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cmvision/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cmvision/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : cmvision/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -328,12 +328,12 @@ roscpp_generate_messages_lisp: cmvision/CMakeFiles/roscpp_generate_messages_lisp
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make cmvision/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make cmvision/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : cmvision/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ roscpp_generate_messages_py: cmvision/CMakeFiles/roscpp_generate_messages_py.dir
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/roscpp_generate_messages_py.dir/build.make cmvision/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/roscpp_generate_messages_py.dir/build.make cmvision/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : cmvision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -356,12 +356,12 @@ rosgraph_msgs_generate_messages_cpp: cmvision/CMakeFiles/rosgraph_msgs_generate_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make cmvision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make cmvision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : cmvision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -370,12 +370,12 @@ rosgraph_msgs_generate_messages_lisp: cmvision/CMakeFiles/rosgraph_msgs_generate
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make cmvision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make cmvision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 cmvision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cmvision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : cmvision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -384,7 +384,7 @@ rosgraph_msgs_generate_messages_py: cmvision/CMakeFiles/rosgraph_msgs_generate_m
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make cmvision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make cmvision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 src/cmvision.o: src/cmvision.cc.o
@@ -392,8 +392,8 @@ src/cmvision.o: src/cmvision.cc.o
 
 # target to build an object file
 src/cmvision.cc.o:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision.cc.o
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/cmvision.cc.o
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision.cc.o
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/cmvision.cc.o
 .PHONY : src/cmvision.cc.o
 
 src/cmvision.i: src/cmvision.cc.i
@@ -401,8 +401,8 @@ src/cmvision.i: src/cmvision.cc.i
 
 # target to preprocess a source file
 src/cmvision.cc.i:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision.cc.i
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/cmvision.cc.i
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision.cc.i
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/cmvision.cc.i
 .PHONY : src/cmvision.cc.i
 
 src/cmvision.s: src/cmvision.cc.s
@@ -410,8 +410,8 @@ src/cmvision.s: src/cmvision.cc.s
 
 # target to generate assembly for a file
 src/cmvision.cc.s:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision.cc.s
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/cmvision.cc.s
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision.cc.s
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/cmvision.cc.s
 .PHONY : src/cmvision.cc.s
 
 src/cmvision_color_blob_finder.o: src/cmvision_color_blob_finder.cpp.o
@@ -419,7 +419,7 @@ src/cmvision_color_blob_finder.o: src/cmvision_color_blob_finder.cpp.o
 
 # target to build an object file
 src/cmvision_color_blob_finder.cpp.o:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision_color_blob_finder.cpp.o
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision_color_blob_finder.cpp.o
 .PHONY : src/cmvision_color_blob_finder.cpp.o
 
 src/cmvision_color_blob_finder.i: src/cmvision_color_blob_finder.cpp.i
@@ -427,7 +427,7 @@ src/cmvision_color_blob_finder.i: src/cmvision_color_blob_finder.cpp.i
 
 # target to preprocess a source file
 src/cmvision_color_blob_finder.cpp.i:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision_color_blob_finder.cpp.i
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision_color_blob_finder.cpp.i
 .PHONY : src/cmvision_color_blob_finder.cpp.i
 
 src/cmvision_color_blob_finder.s: src/cmvision_color_blob_finder.cpp.s
@@ -435,7 +435,7 @@ src/cmvision_color_blob_finder.s: src/cmvision_color_blob_finder.cpp.s
 
 # target to generate assembly for a file
 src/cmvision_color_blob_finder.cpp.s:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision_color_blob_finder.cpp.s
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/cmvision_color_blob_finder.cpp.s
 .PHONY : src/cmvision_color_blob_finder.cpp.s
 
 src/color_gui.o: src/color_gui.cpp.o
@@ -443,7 +443,7 @@ src/color_gui.o: src/color_gui.cpp.o
 
 # target to build an object file
 src/color_gui.cpp.o:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/color_gui.cpp.o
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/color_gui.cpp.o
 .PHONY : src/color_gui.cpp.o
 
 src/color_gui.i: src/color_gui.cpp.i
@@ -451,7 +451,7 @@ src/color_gui.i: src/color_gui.cpp.i
 
 # target to preprocess a source file
 src/color_gui.cpp.i:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/color_gui.cpp.i
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/color_gui.cpp.i
 .PHONY : src/color_gui.cpp.i
 
 src/color_gui.s: src/color_gui.cpp.s
@@ -459,7 +459,7 @@ src/color_gui.s: src/color_gui.cpp.s
 
 # target to generate assembly for a file
 src/color_gui.cpp.s:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/color_gui.cpp.s
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/color_gui.cpp.s
 .PHONY : src/color_gui.cpp.s
 
 src/conversions.o: src/conversions.c.o
@@ -467,8 +467,8 @@ src/conversions.o: src/conversions.c.o
 
 # target to build an object file
 src/conversions.c.o:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/conversions.c.o
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/conversions.c.o
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/conversions.c.o
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/conversions.c.o
 .PHONY : src/conversions.c.o
 
 src/conversions.i: src/conversions.c.i
@@ -476,8 +476,8 @@ src/conversions.i: src/conversions.c.i
 
 # target to preprocess a source file
 src/conversions.c.i:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/conversions.c.i
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/conversions.c.i
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/conversions.c.i
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/conversions.c.i
 .PHONY : src/conversions.c.i
 
 src/conversions.s: src/conversions.c.s
@@ -485,8 +485,8 @@ src/conversions.s: src/conversions.c.s
 
 # target to generate assembly for a file
 src/conversions.c.s:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/conversions.c.s
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/conversions.c.s
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/conversions.c.s
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/colorgui.dir/build.make cmvision/CMakeFiles/colorgui.dir/src/conversions.c.s
 .PHONY : src/conversions.c.s
 
 src/main.o: src/main.cpp.o
@@ -494,7 +494,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/main.cpp.o
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -502,7 +502,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/main.cpp.i
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -510,7 +510,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/turtlebot/catkin_ws_copy/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/main.cpp.s
+	cd /home/turtlebot/cse276/catkin_ws/build && $(MAKE) -f cmvision/CMakeFiles/cmvision.dir/build.make cmvision/CMakeFiles/cmvision.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -569,6 +569,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

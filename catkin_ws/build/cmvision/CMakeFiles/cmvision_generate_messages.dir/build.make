@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtlebot/catkin_ws_copy/src
+CMAKE_SOURCE_DIR = /home/turtlebot/cse276/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtlebot/catkin_ws_copy/build
+CMAKE_BINARY_DIR = /home/turtlebot/cse276/catkin_ws/build
 
 # Utility rule file for cmvision_generate_messages.
 
@@ -56,10 +56,10 @@ cmvision/CMakeFiles/cmvision_generate_messages.dir/build: cmvision_generate_mess
 .PHONY : cmvision/CMakeFiles/cmvision_generate_messages.dir/build
 
 cmvision/CMakeFiles/cmvision_generate_messages.dir/clean:
-	cd /home/turtlebot/catkin_ws_copy/build/cmvision && $(CMAKE_COMMAND) -P CMakeFiles/cmvision_generate_messages.dir/cmake_clean.cmake
+	cd /home/turtlebot/cse276/catkin_ws/build/cmvision && $(CMAKE_COMMAND) -P CMakeFiles/cmvision_generate_messages.dir/cmake_clean.cmake
 .PHONY : cmvision/CMakeFiles/cmvision_generate_messages.dir/clean
 
 cmvision/CMakeFiles/cmvision_generate_messages.dir/depend:
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/catkin_ws_copy/src /home/turtlebot/catkin_ws_copy/src/cmvision /home/turtlebot/catkin_ws_copy/build /home/turtlebot/catkin_ws_copy/build/cmvision /home/turtlebot/catkin_ws_copy/build/cmvision/CMakeFiles/cmvision_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/cse276/catkin_ws/src /home/turtlebot/cse276/catkin_ws/src/cmvision /home/turtlebot/cse276/catkin_ws/build /home/turtlebot/cse276/catkin_ws/build/cmvision /home/turtlebot/cse276/catkin_ws/build/cmvision/CMakeFiles/cmvision_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cmvision/CMakeFiles/cmvision_generate_messages.dir/depend
 

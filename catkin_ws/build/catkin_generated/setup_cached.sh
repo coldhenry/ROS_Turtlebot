@@ -7,6 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/turtlebot/catkin_ws_copy/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/turtlebot/catkin_ws_copy/build"
-export ROS_PACKAGE_PATH="/home/turtlebot/catkin_ws_copy/src:$ROS_PACKAGE_PATH"
+export PWD="/home/turtlebot/cse276/catkin_ws/build"

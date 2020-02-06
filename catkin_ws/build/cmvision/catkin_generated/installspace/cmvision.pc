@@ -1,8 +1,8 @@
-prefix=/home/turtlebot/catkin_ws_copy/install
+prefix=/home/turtlebot/cse276/catkin_ws/install
 
 Name: cmvision
 Description: Description of cmvision
 Version: 0.4.1
-Cflags: -I/home/turtlebot/catkin_ws_copy/install/include
-Libs: -L/home/turtlebot/catkin_ws_copy/install/lib 
+Cflags: -I/home/turtlebot/cse276/catkin_ws/install/include
+Libs: -L/home/turtlebot/cse276/catkin_ws/install/lib 
 Requires: message_runtime std_msgs

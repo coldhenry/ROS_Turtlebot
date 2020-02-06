@@ -1,8 +1,8 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/cmvision_generate_messages_py"
-  "/home/turtlebot/catkin_ws_copy/devel/lib/python2.7/dist-packages/cmvision/msg/_Blobs.py"
-  "/home/turtlebot/catkin_ws_copy/devel/lib/python2.7/dist-packages/cmvision/msg/_Blob.py"
-  "/home/turtlebot/catkin_ws_copy/devel/lib/python2.7/dist-packages/cmvision/msg/__init__.py"
+  "/home/turtlebot/cse276/catkin_ws/devel/lib/python2.7/dist-packages/cmvision/msg/_Blobs.py"
+  "/home/turtlebot/cse276/catkin_ws/devel/lib/python2.7/dist-packages/cmvision/msg/_Blob.py"
+  "/home/turtlebot/cse276/catkin_ws/devel/lib/python2.7/dist-packages/cmvision/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

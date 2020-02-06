@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/turtlebot/catkin_ws_copy/devel/include/cmvision/Blob.h
+/home/turtlebot/cse276/catkin_ws/devel/include/cmvision/Blob.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/turtlebot/catkin_ws_copy/devel/include/cmvision/Blobs.h
+/home/turtlebot/cse276/catkin_ws/devel/include/cmvision/Blobs.h
 string
 -
 vector
@@ -42,17 +42,17 @@ std_msgs/Header.h
 cmvision/Blob.h
 -
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/capture.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/capture.h
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision.cc
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision.cc
 cmvision.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision.h
 string.h
 -
 strings.h
 -
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision.h
 stdlib.h
 -
 string.h
@@ -60,7 +60,7 @@ string.h
 stdio.h
 -
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision_color_blob_finder.cpp
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision_color_blob_finder.cpp
 opencv/highgui.h
 -
 ros/time.h
@@ -68,9 +68,9 @@ ros/time.h
 cv_bridge/cv_bridge.h
 -
 cmvision_color_blob_finder.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision_color_blob_finder.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision_color_blob_finder.h
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision_color_blob_finder.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision_color_blob_finder.h
 ros/ros.h
 -
 sensor_msgs/Image.h
@@ -80,23 +80,23 @@ opencv/cv.h
 cmvision/Blobs.h
 -
 conversions.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/conversions.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/conversions.h
 cmvision.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision.h
 capture.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/capture.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/capture.h
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/conversions.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/conversions.h
 stdlib.h
 -
 stdio.h
 -
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/main.cpp
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/main.cpp
 ros/ros.h
 -
 cmvision_color_blob_finder.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision_color_blob_finder.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision_color_blob_finder.h
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h

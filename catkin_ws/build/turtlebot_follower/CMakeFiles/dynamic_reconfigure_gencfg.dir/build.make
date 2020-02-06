@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtlebot/catkin_ws_copy/src
+CMAKE_SOURCE_DIR = /home/turtlebot/cse276/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtlebot/catkin_ws_copy/build
+CMAKE_BINARY_DIR = /home/turtlebot/cse276/catkin_ws/build
 
 # Utility rule file for dynamic_reconfigure_gencfg.
 
@@ -56,10 +56,10 @@ turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/build: dynamic_reco
 .PHONY : turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 
 turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
-	cd /home/turtlebot/catkin_ws_copy/build/turtlebot_follower && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
+	cd /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
 .PHONY : turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 
 turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend:
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/catkin_ws_copy/src /home/turtlebot/catkin_ws_copy/src/turtlebot_follower /home/turtlebot/catkin_ws_copy/build /home/turtlebot/catkin_ws_copy/build/turtlebot_follower /home/turtlebot/catkin_ws_copy/build/turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/cse276/catkin_ws/src /home/turtlebot/cse276/catkin_ws/src/turtlebot_follower /home/turtlebot/cse276/catkin_ws/build /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot_follower/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 

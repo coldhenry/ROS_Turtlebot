@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtlebot/catkin_ws_copy/src
+CMAKE_SOURCE_DIR = /home/turtlebot/cse276/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtlebot/catkin_ws_copy/build
+CMAKE_BINARY_DIR = /home/turtlebot/cse276/catkin_ws/build
 
 # Utility rule file for cmvision_3d_gencpp.
 
@@ -56,10 +56,10 @@ cmvision_3d/CMakeFiles/cmvision_3d_gencpp.dir/build: cmvision_3d_gencpp
 .PHONY : cmvision_3d/CMakeFiles/cmvision_3d_gencpp.dir/build
 
 cmvision_3d/CMakeFiles/cmvision_3d_gencpp.dir/clean:
-	cd /home/turtlebot/catkin_ws_copy/build/cmvision_3d && $(CMAKE_COMMAND) -P CMakeFiles/cmvision_3d_gencpp.dir/cmake_clean.cmake
+	cd /home/turtlebot/cse276/catkin_ws/build/cmvision_3d && $(CMAKE_COMMAND) -P CMakeFiles/cmvision_3d_gencpp.dir/cmake_clean.cmake
 .PHONY : cmvision_3d/CMakeFiles/cmvision_3d_gencpp.dir/clean
 
 cmvision_3d/CMakeFiles/cmvision_3d_gencpp.dir/depend:
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/catkin_ws_copy/src /home/turtlebot/catkin_ws_copy/src/cmvision_3d /home/turtlebot/catkin_ws_copy/build /home/turtlebot/catkin_ws_copy/build/cmvision_3d /home/turtlebot/catkin_ws_copy/build/cmvision_3d/CMakeFiles/cmvision_3d_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/cse276/catkin_ws/src /home/turtlebot/cse276/catkin_ws/src/cmvision_3d /home/turtlebot/cse276/catkin_ws/build /home/turtlebot/cse276/catkin_ws/build/cmvision_3d /home/turtlebot/cse276/catkin_ws/build/cmvision_3d/CMakeFiles/cmvision_3d_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cmvision_3d/CMakeFiles/cmvision_3d_gencpp.dir/depend
 

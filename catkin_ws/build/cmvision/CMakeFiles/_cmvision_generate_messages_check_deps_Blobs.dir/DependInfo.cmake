@@ -19,7 +19,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/turtlebot/catkin_ws_copy/devel/include"
+  "/home/turtlebot/cse276/catkin_ws/devel/include"
   "/opt/ros/indigo/include"
   "/usr/include/opencv"
   "/usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-release-2.8"

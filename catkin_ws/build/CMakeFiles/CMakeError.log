@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp
+Change Dir: /home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec750588969/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec750588969.dir/build.make CMakeFiles/cmTryCompileExec750588969.dir/build
-make[1]: Entering directory `/home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec750588969.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec750588969.dir/CheckSymbolExists.c.o   -c /home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec750588969
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec750588969.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec750588969.dir/CheckSymbolExists.c.o  -o cmTryCompileExec750588969 -rdynamic 
-CMakeFiles/cmTryCompileExec750588969.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:/usr/bin/make "cmTryCompileExec355940969/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec355940969.dir/build.make CMakeFiles/cmTryCompileExec355940969.dir/build
+make[1]: Entering directory `/home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec355940969.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec355940969.dir/CheckSymbolExists.c.o   -c /home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec355940969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec355940969.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec355940969.dir/CheckSymbolExists.c.o  -o cmTryCompileExec355940969 -rdynamic 
+CMakeFiles/cmTryCompileExec355940969.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: Leaving directory `/home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec750588969] Error 1
-make: *** [cmTryCompileExec750588969/fast] Error 2
+make[1]: Leaving directory `/home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec355940969] Error 1
+make: *** [cmTryCompileExec355940969/fast] Error 2
 
-File /home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -33,21 +33,21 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp
+Change Dir: /home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2256723457/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2256723457.dir/build.make CMakeFiles/cmTryCompileExec2256723457.dir/build
-make[1]: Entering directory `/home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2256723457.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2256723457.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2256723457
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2256723457.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2256723457.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2256723457 -rdynamic -lpthreads 
+Run Build Command:/usr/bin/make "cmTryCompileExec1351801440/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1351801440.dir/build.make CMakeFiles/cmTryCompileExec1351801440.dir/build
+make[1]: Entering directory `/home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1351801440.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1351801440.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1351801440
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1351801440.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1351801440.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1351801440 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: Leaving directory `/home/turtlebot/catkin_ws_copy/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2256723457] Error 1
-make: *** [cmTryCompileExec2256723457/fast] Error 2
+make[1]: *** [cmTryCompileExec1351801440] Error 1
+make[1]: Leaving directory `/home/turtlebot/cse276/catkin_ws/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1351801440/fast] Error 2
 
 

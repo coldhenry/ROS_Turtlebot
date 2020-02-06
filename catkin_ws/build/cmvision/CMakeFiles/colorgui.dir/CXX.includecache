@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision.cc
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision.cc
 cmvision.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision.h
 string.h
 -
 strings.h
 -
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision.h
 stdlib.h
 -
 string.h
@@ -22,17 +22,17 @@ string.h
 stdio.h
 -
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/color_gui.cpp
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/color_gui.cpp
 string
 -
 cv_bridge/cv_bridge.h
 -
 color_gui.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/color_gui.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/color_gui.h
 conversions.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/conversions.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/conversions.h
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/color_gui.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/color_gui.h
 ros/ros.h
 -
 opencv/cv.h
@@ -42,9 +42,9 @@ sensor_msgs/Image.h
 wx/wx.h
 -
 cmvision.h
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/cmvision.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/cmvision.h
 
-/home/turtlebot/catkin_ws_copy/src/cmvision/src/conversions.h
+/home/turtlebot/cse276/catkin_ws/src/cmvision/src/conversions.h
 stdlib.h
 -
 stdio.h

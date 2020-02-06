@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtlebot/catkin_ws_copy/src
+CMAKE_SOURCE_DIR = /home/turtlebot/cse276/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtlebot/catkin_ws_copy/build
+CMAKE_BINARY_DIR = /home/turtlebot/cse276/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include turtlebot_follower/CMakeFiles/turtlebot_follower.dir/depend.make
@@ -50,18 +50,18 @@ include turtlebot_follower/CMakeFiles/turtlebot_follower.dir/progress.make
 include turtlebot_follower/CMakeFiles/turtlebot_follower.dir/flags.make
 
 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o: turtlebot_follower/CMakeFiles/turtlebot_follower.dir/flags.make
-turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o: /home/turtlebot/catkin_ws_copy/src/turtlebot_follower/src/findGoal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/turtlebot/catkin_ws_copy/build/CMakeFiles $(CMAKE_PROGRESS_1)
+turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o: /home/turtlebot/cse276/catkin_ws/src/turtlebot_follower/src/findGoal.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/turtlebot/cse276/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o"
-	cd /home/turtlebot/catkin_ws_copy/build/turtlebot_follower && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o -c /home/turtlebot/catkin_ws_copy/src/turtlebot_follower/src/findGoal.cpp
+	cd /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o -c /home/turtlebot/cse276/catkin_ws/src/turtlebot_follower/src/findGoal.cpp
 
 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.i"
-	cd /home/turtlebot/catkin_ws_copy/build/turtlebot_follower && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/turtlebot/catkin_ws_copy/src/turtlebot_follower/src/findGoal.cpp > CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.i
+	cd /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/turtlebot/cse276/catkin_ws/src/turtlebot_follower/src/findGoal.cpp > CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.i
 
 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.s"
-	cd /home/turtlebot/catkin_ws_copy/build/turtlebot_follower && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/turtlebot/catkin_ws_copy/src/turtlebot_follower/src/findGoal.cpp -o CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.s
+	cd /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/turtlebot/cse276/catkin_ws/src/turtlebot_follower/src/findGoal.cpp -o CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.s
 
 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o.requires:
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o.requires
@@ -79,54 +79,54 @@ turtlebot_follower_OBJECTS = \
 # External object files for target turtlebot_follower
 turtlebot_follower_EXTERNAL_OBJECTS =
 
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libnodeletlib.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libbondcpp.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libclass_loader.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/libPocoFoundation.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libroslib.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librospack.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libroscpp.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librosconsole.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/liblog4cxx.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libdepth_image_proc.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librostime.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libcpp_common.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so: turtlebot_follower/CMakeFiles/turtlebot_follower.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so"
-	cd /home/turtlebot/catkin_ws_copy/build/turtlebot_follower && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot_follower.dir/link.txt --verbose=$(VERBOSE)
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build.make
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libnodeletlib.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libbondcpp.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libclass_loader.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/libPocoFoundation.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libroslib.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librospack.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libroscpp.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librosconsole.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/liblog4cxx.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libdepth_image_proc.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/librostime.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /opt/ros/indigo/lib/libcpp_common.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so: turtlebot_follower/CMakeFiles/turtlebot_follower.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so"
+	cd /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot_follower.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build: /home/turtlebot/catkin_ws_copy/devel/lib/libturtlebot_follower.so
+turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build: /home/turtlebot/cse276/catkin_ws/devel/lib/libturtlebot_follower.so
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_follower.dir/build
 
 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/requires: turtlebot_follower/CMakeFiles/turtlebot_follower.dir/src/findGoal.cpp.o.requires
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_follower.dir/requires
 
 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/clean:
-	cd /home/turtlebot/catkin_ws_copy/build/turtlebot_follower && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot_follower.dir/cmake_clean.cmake
+	cd /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot_follower.dir/cmake_clean.cmake
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_follower.dir/clean
 
 turtlebot_follower/CMakeFiles/turtlebot_follower.dir/depend:
-	cd /home/turtlebot/catkin_ws_copy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/catkin_ws_copy/src /home/turtlebot/catkin_ws_copy/src/turtlebot_follower /home/turtlebot/catkin_ws_copy/build /home/turtlebot/catkin_ws_copy/build/turtlebot_follower /home/turtlebot/catkin_ws_copy/build/turtlebot_follower/CMakeFiles/turtlebot_follower.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtlebot/cse276/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/cse276/catkin_ws/src /home/turtlebot/cse276/catkin_ws/src/turtlebot_follower /home/turtlebot/cse276/catkin_ws/build /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower /home/turtlebot/cse276/catkin_ws/build/turtlebot_follower/CMakeFiles/turtlebot_follower.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot_follower/CMakeFiles/turtlebot_follower.dir/depend
 

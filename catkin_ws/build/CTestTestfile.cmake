@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/turtlebot/catkin_ws_copy/src
-# Build directory: /home/turtlebot/catkin_ws_copy/build
+# Source directory: /home/turtlebot/cse276/catkin_ws/src
+# Build directory: /home/turtlebot/cse276/catkin_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
